@@ -1,28 +1,21 @@
 import React from 'react';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Solutions from './components/Solutions';
-import ServiceBundle from './components/ServiceBundle';
-import Testimonials from './components/Testimonials';
-import CaseStudies from './components/CaseStudies';
-import FAQ from './components/FAQ';
-import CallToAction from './components/CallToAction';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import About from './pages/About';
+import Services from './pages/Services';
+import CaseStudiesPage from './pages/CaseStudiesPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero />
-      <Solutions />
-      <ServiceBundle />
-      <Testimonials />
-      <CaseStudies />
-      <FAQ />
-      <Contact />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/case-studies" element={<CaseStudiesPage />} />
+      <Route path="/contact" element={<ContactPage />} />
+    </Routes>
   );
 }
 

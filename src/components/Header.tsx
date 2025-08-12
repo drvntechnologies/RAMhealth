@@ -1,21 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Lightbulb as Lighthouse, Menu } from 'lucide-react';
 
 const Header = () => {
   return (
     <header className="bg-[#003087] py-4 px-6">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="flex items-center space-x-3">
+        <Link to="/" className="flex items-center space-x-3">
           <Lighthouse className="h-8 w-8 text-white" />
           <span className="text-white font-bold text-xl">RAM HEALTH COMMUNICATIONS</span>
-        </div>
+        </Link>
         
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#home" className="text-white hover:text-gray-200 transition-colors">Home</a>
-          <a href="#about" className="text-white hover:text-gray-200 transition-colors">About</a>
-          <a href="#services" className="text-white hover:text-gray-200 transition-colors">Services</a>
-          <a href="#case-studies" className="text-white hover:text-gray-200 transition-colors">Case Studies</a>
-          <a href="#contact" className="text-white hover:text-gray-200 transition-colors">Contact</a>
+          <Link to="/" className="text-white hover:text-gray-200 transition-colors">Home</Link>
+          <Link to="/about" className="text-white hover:text-gray-200 transition-colors">About</Link>
+          <Link to="/services" className="text-white hover:text-gray-200 transition-colors">Services</Link>
+          <Link to="/case-studies" className="text-white hover:text-gray-200 transition-colors">Case Studies</Link>
+          <Link to="/contact" className="text-white hover:text-gray-200 transition-colors">Contact</Link>
         </nav>
         
         <div className="hidden md:flex items-center space-x-4">
