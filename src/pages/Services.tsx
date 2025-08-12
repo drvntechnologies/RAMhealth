@@ -45,7 +45,6 @@ const Services = () => {
       {/* Additional Services */}
       <section className="bg-white py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#003087] mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] mb-16 text-center">
             Additional Expertise
           </h2>
@@ -71,7 +70,6 @@ const Services = () => {
       {/* Process Section */}
       <section className="bg-[#e0e0e0] py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#003087] mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] mb-16 text-center">
             Our Process
           </h2>
@@ -121,7 +119,6 @@ const Services = () => {
           <p className="text-xl text-gray-200 mb-8">
             Let's discuss how our services can help you achieve your healthcare communications goals.
           </p>
-          <button className="bg-white text-[#003087] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
           <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
             Contact us today
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
