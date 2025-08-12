@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Solutions from '../components/Solutions';
-import ServiceBundle from '../components/ServiceBundle';
 import Testimonials from '../components/Testimonials';
 import CaseStudies from '../components/CaseStudies';
 import FAQ from '../components/FAQ';
@@ -15,7 +14,6 @@ const HomePage = () => {
       <Header />
       <Hero />
       <Solutions />
-      <ServiceBundle />
       <Testimonials />
       <CaseStudies />
       <FAQ />
