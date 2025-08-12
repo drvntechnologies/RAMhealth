@@ -1,14 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Lightbulb as Lighthouse, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 const Header = () => {
   return (
     <header className="bg-[#003087] py-4 px-6">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-3">
-          <Lighthouse className="h-8 w-8 text-white" />
-          <span className="text-white font-bold text-xl">RAM HEALTH COMMUNICATIONS</span>
+          <img 
+            src="/src/public/LIGHT2.png" 
+            alt="RAM Health Communications" 
+            className="h-12 w-auto"
+          />
         </Link>
         
         <nav className="hidden md:flex items-center space-x-8">
