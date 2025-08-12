@@ -21,7 +21,7 @@ const CaseStudiesPage = () => {
         <Header />
         
         {/* Hero Section */}
-        <section className="bg-[#003087] py-20 px-6">
+        <section className="bg-[#171E43] py-20 px-6">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Case Studies
@@ -47,6 +47,7 @@ const CaseStudiesPage = () => {
                   </div>
                   
                   <h3 className="text-xl font-bold text-[#003087] mb-2 text-center">
+                  <h3 className="text-xl font-bold text-[#171E43] mb-2 text-center">
                     {caseStudy.name}
                   </h3>
                   
@@ -62,7 +63,7 @@ const CaseStudiesPage = () => {
                   
                   <button 
                     onClick={() => openModal(caseStudy)}
-                    className="w-full bg-[#003087] text-white px-4 py-3 rounded-lg font-medium hover:bg-[#002266] transition-all inline-flex items-center justify-center group"
+                    className="w-full bg-[#171E43] text-white px-4 py-3 rounded-lg font-medium hover:bg-[#0f1530] transition-all inline-flex items-center justify-center group"
                   >
                     Read full case study
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
@@ -74,7 +75,7 @@ const CaseStudiesPage = () => {
         </section>
 
         {/* Call to Action */}
-        <section className="bg-[#003087] py-20 px-6">
+        <section className="bg-[#171E43] py-20 px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               Ready to Create Your Success Story?
@@ -83,6 +84,7 @@ const CaseStudiesPage = () => {
               Let's discuss how we can help you achieve similar results for your healthcare organization.
             </p>
             <button className="bg-white text-[#003087] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
+            <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
               Start your project
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </button>
@@ -97,7 +99,7 @@ const CaseStudiesPage = () => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
             <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
-              <h2 className="text-2xl font-bold text-[#003087]">Case Study</h2>
+              <h2 className="text-2xl font-bold text-[#171E43]">Case Study</h2>
               <button
                 onClick={closeModal}
                 className="text-gray-500 hover:text-gray-700 transition-colors"
@@ -115,7 +117,7 @@ const CaseStudiesPage = () => {
                       alt={`${selectedCaseStudy.name} logo`}
                       className="w-24 h-24 object-cover rounded-lg mx-auto mb-4"
                     />
-                    <h3 className="text-xl font-bold text-[#003087] mb-2">
+                    <h3 className="text-xl font-bold text-[#171E43] mb-2">
                       {selectedCaseStudy.name}
                     </h3>
                     <p className="text-gray-600 text-sm">
@@ -127,20 +129,20 @@ const CaseStudiesPage = () => {
                 <div className="lg:w-2/3">
                   <div className="space-y-6">
                     <div>
-                      <h4 className="text-lg font-bold text-[#003087] mb-3">Overall Goal</h4>
+                      <h4 className="text-lg font-bold text-[#171E43] mb-3">Overall Goal</h4>
                       <p className="text-gray-700 leading-relaxed">
                         {selectedCaseStudy.overallGoal}
                       </p>
                     </div>
                     
                     <div>
-                      <h4 className="text-lg font-bold text-[#003087] mb-3">Results</h4>
+                      <h4 className="text-lg font-bold text-[#171E43] mb-3">Results</h4>
                       <div className="text-gray-700 leading-relaxed">
                         {selectedCaseStudy.results.split('\n').map((line, index) => (
                           <div key={index} className="mb-2">
                             {line.trim() && (
                               <div className="flex items-start">
-                                <span className="text-[#003087] mr-2 mt-1">•</span>
+                                <span className="text-[#171E43] mr-2 mt-1">•</span>
                                 <span>{line.replace('• ', '')}</span>
                               </div>
                             )}

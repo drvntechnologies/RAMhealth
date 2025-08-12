@@ -9,7 +9,7 @@ const About = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-[#003087] py-20 px-6">
+      <section className="bg-[#171E43] py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             About Robert
@@ -53,12 +53,13 @@ const About = () => {
       <section className="bg-[#faf8f5] py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-[#003087] mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] mb-12 text-center">
             Professional Experience
           </h2>
           
           <div className="space-y-8">
             <div className="bg-white rounded-xl p-8 shadow-md">
-              <h3 className="text-xl font-bold text-[#003087] mb-4">
+              <h3 className="text-xl font-bold text-[#171E43] mb-4">
                 Director of Corporate Communications and External Relations - Radisphere National Radiology Group
               </h3>
               <p className="text-gray-700 leading-relaxed">
@@ -67,7 +68,7 @@ const About = () => {
             </div>
             
             <div className="bg-white rounded-xl p-8 shadow-md">
-              <h3 className="text-xl font-bold text-[#003087] mb-4">
+              <h3 className="text-xl font-bold text-[#171E43] mb-4">
                 Corporate Communications Manager - ZOLL Medical Corporation (NASDAQ: ZOLL)
               </h3>
               <p className="text-gray-700 leading-relaxed">
@@ -76,7 +77,7 @@ const About = () => {
             </div>
             
             <div className="bg-white rounded-xl p-8 shadow-md">
-              <h3 className="text-xl font-bold text-[#003087] mb-4">
+              <h3 className="text-xl font-bold text-[#171E43] mb-4">
                 Early Career Highlights
               </h3>
               <p className="text-gray-700 leading-relaxed">
@@ -88,7 +89,7 @@ const About = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-[#003087] py-20 px-6">
+      <section className="bg-[#171E43] py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Build Your Thought Leadership?
@@ -97,6 +98,7 @@ const About = () => {
             Let's discuss how we can create compelling healthcare communications that drive results for your organization.
           </p>
           <button className="bg-white text-[#003087] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
+          <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
             Get in touch
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </button>

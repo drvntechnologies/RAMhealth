@@ -4,13 +4,13 @@ import { Menu } from 'lucide-react';
 
 const Header = () => {
   return (
-    <header className="bg-[#003087] py-4 px-6">
+    <header className="bg-[#171E43] py-4 px-6">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-3">
           <img 
             src="/src/public/LIGHT2.png" 
             alt="RAM Health Communications" 
-            className="h-12 w-auto"
+            className="h-48 w-auto"
           />
         </Link>
         

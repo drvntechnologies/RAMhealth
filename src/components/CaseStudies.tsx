@@ -28,7 +28,7 @@ const CaseStudies = () => {
 
   return (
     <>
-      <section className="bg-[#003087] py-20 px-6">
+      <section className="bg-[#171E43] py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16">
           Case Studies
@@ -114,7 +114,7 @@ const CaseStudies = () => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
             <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
-              <h2 className="text-2xl font-bold text-[#003087]">Case Study</h2>
+              <h2 className="text-2xl font-bold text-[#171E43]">Case Study</h2>
               <button
                 onClick={closeModal}
                 className="text-gray-500 hover:text-gray-700 transition-colors"
@@ -132,7 +132,7 @@ const CaseStudies = () => {
                       alt={`${selectedCaseStudy.name} logo`}
                       className="w-24 h-24 object-cover rounded-lg mx-auto mb-4"
                     />
-                    <h3 className="text-xl font-bold text-[#003087] mb-2">
+                    <h3 className="text-xl font-bold text-[#171E43] mb-2">
                       {selectedCaseStudy.name}
                     </h3>
                     <p className="text-gray-600 text-sm">
@@ -144,14 +144,14 @@ const CaseStudies = () => {
                 <div className="lg:w-2/3">
                   <div className="space-y-6">
                     <div>
-                      <h4 className="text-lg font-bold text-[#003087] mb-3">Overall Goal</h4>
+                      <h4 className="text-lg font-bold text-[#171E43] mb-3">Overall Goal</h4>
                       <p className="text-gray-700 leading-relaxed">
                         {selectedCaseStudy.overallGoal}
                       </p>
                     </div>
                     
                     <div>
-                      <h4 className="text-lg font-bold text-[#003087] mb-3">Results</h4>
+                      <h4 className="text-lg font-bold text-[#171E43] mb-3">Results</h4>
                       <p className="text-gray-700 leading-relaxed whitespace-pre-line">
                         {selectedCaseStudy.results}
                       </p>

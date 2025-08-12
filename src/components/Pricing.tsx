@@ -68,9 +68,9 @@ const Pricing = () => {
               )}
               
               <div className="text-center mb-8">
-                <h3 className="text-xl font-bold text-[#003087] mb-2">{plan.name}</h3>
+                <h3 className="text-xl font-bold text-[#171E43] mb-2">{plan.name}</h3>
                 <div className="mb-2">
-                  <span className="text-4xl font-bold text-[#003087]">{plan.price}</span>
+                  <span className="text-4xl font-bold text-[#171E43]">{plan.price}</span>
                   {plan.price !== "Custom" && <span className="text-gray-600 ml-1">/{plan.period.split(' ')[1]}</span>}
                 </div>
                 <p className="text-gray-600">{plan.period}</p>
@@ -87,8 +87,8 @@ const Pricing = () => {
               
               <button className={`w-full py-3 px-6 rounded-lg font-medium transition-all ${
                 plan.popular 
-                  ? 'bg-[#003087] text-white hover:bg-[#002266]' 
-                  : 'bg-gray-100 text-[#003087] hover:bg-gray-200'
+                  ? 'bg-[#171E43] text-white hover:bg-[#0f1530]' 
+                  : 'bg-gray-100 text-[#171E43] hover:bg-gray-200'
               }`}>
                 {plan.buttonText}
               </button>

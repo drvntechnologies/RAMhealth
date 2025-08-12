@@ -7,7 +7,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#003087] py-16 px-6 relative">
+    <footer className="bg-[#171E43] py-16 px-6 relative">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
@@ -69,7 +69,7 @@ const Footer = () => {
       
       <button
         onClick={scrollToTop}
-        className="absolute bottom-8 right-8 bg-white text-[#003087] w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-100 transition-all shadow-lg"
+        className="absolute bottom-8 right-8 bg-white text-[#171E43] w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-100 transition-all shadow-lg"
         aria-label="Scroll to top"
       >
         <ArrowUp className="h-6 w-6" />

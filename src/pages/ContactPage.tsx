@@ -10,7 +10,7 @@ const ContactPage = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-[#003087] py-20 px-6">
+      <section className="bg-[#171E43] py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Contact Us
@@ -25,51 +25,51 @@ const ContactPage = () => {
       <section className="bg-white py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16">
-            <span className="text-[#003087]">Let's Navigate Healthcare Together</span>
+            <span className="text-[#171E43]">Let's Navigate Healthcare Together</span>
           </h2>
           
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <form className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-[#003087] font-medium mb-2">
+                  <label htmlFor="name" className="block text-[#171E43] font-medium mb-2">
                     Name
                   </label>
                   <input
                     type="text"
                     id="name"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#003087] focus:border-[#003087]"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43]"
                     placeholder="Your full name"
                   />
                 </div>
                 
                 <div>
-                  <label htmlFor="email" className="block text-[#003087] font-medium mb-2">
+                  <label htmlFor="email" className="block text-[#171E43] font-medium mb-2">
                     Email
                   </label>
                   <input
                     type="email"
                     id="email"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#003087] focus:border-[#003087]"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43]"
                     placeholder="your@email.com"
                   />
                 </div>
                 
                 <div>
-                  <label htmlFor="message" className="block text-[#003087] font-medium mb-2">
+                  <label htmlFor="message" className="block text-[#171E43] font-medium mb-2">
                     Message
                   </label>
                   <textarea
                     id="message"
                     rows={6}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#003087] focus:border-[#003087] resize-none"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43] resize-none"
                     placeholder="Tell us about your healthcare needs..."
                   />
                 </div>
                 
                 <button
                   type="submit"
-                  className="w-full bg-[#003087] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#002266] transition-all"
+                  className="w-full bg-[#171E43] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0f1530] transition-all"
                 >
                   Send message
                 </button>
@@ -78,29 +78,29 @@ const ContactPage = () => {
             
             <div className="space-y-8">
               <div className="bg-[#faf8f5] rounded-xl p-8 border border-gray-200">
-                <h3 className="text-xl font-bold text-[#003087] mb-6">Contact Information</h3>
+                <h3 className="text-xl font-bold text-[#171E43] mb-6">Contact Information</h3>
                 
                 <div className="space-y-6">
                   <div className="flex items-center">
-                    <Phone className="h-6 w-6 mr-4 text-[#003087]" />
+                    <Phone className="h-6 w-6 mr-4 text-[#171E43]" />
                     <div>
-                      <h4 className="font-medium text-[#003087]">Phone</h4>
+                      <h4 className="font-medium text-[#171E43]">Phone</h4>
                       <p className="text-gray-600">+1 234-567-8901</p>
                     </div>
                   </div>
                   
                   <div className="flex items-center">
-                    <Mail className="h-6 w-6 mr-4 text-[#003087]" />
+                    <Mail className="h-6 w-6 mr-4 text-[#171E43]" />
                     <div>
-                      <h4 className="font-medium text-[#003087]">Email</h4>
+                      <h4 className="font-medium text-[#171E43]">Email</h4>
                       <p className="text-gray-600">hello@ramhealth.com</p>
                     </div>
                   </div>
                   
                   <div className="flex items-center">
-                    <MapPin className="h-6 w-6 mr-4 text-[#003087]" />
+                    <MapPin className="h-6 w-6 mr-4 text-[#171E43]" />
                     <div>
-                      <h4 className="font-medium text-[#003087]">Location</h4>
+                      <h4 className="font-medium text-[#171E43]">Location</h4>
                       <p className="text-gray-600">Boston, MA</p>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ const ContactPage = () => {
               </div>
               
               <div className="bg-[#faf8f5] rounded-xl p-8 border border-gray-200">
-                <h3 className="text-xl font-bold text-[#003087] mb-4">Ready to Get Started?</h3>
+                <h3 className="text-xl font-bold text-[#171E43] mb-4">Ready to Get Started?</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Ready to transform your healthcare practice? Our team of experts is here to help you navigate the future of healthcare technology and communications.
                 </p>
