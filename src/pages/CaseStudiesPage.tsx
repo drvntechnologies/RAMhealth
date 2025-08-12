@@ -47,6 +47,7 @@ const CaseStudiesPage = () => {
                   </div>
                   
                   <h3 className="text-xl font-bold text-[#003087] mb-2 text-center">
+                  </h3>
                   <h3 className="text-xl font-bold text-[#171E43] mb-2 text-center">
                     {caseStudy.name}
                   </h3>
@@ -84,6 +85,7 @@ const CaseStudiesPage = () => {
               Let's discuss how we can help you achieve similar results for your healthcare organization.
             </p>
             <button className="bg-white text-[#003087] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
+            </button>
             <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
               Start your project
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
