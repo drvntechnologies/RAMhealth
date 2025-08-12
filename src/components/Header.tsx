@@ -12,7 +12,6 @@ const Header = () => {
             alt="RAM Health Communications" 
             className="h-20 w-auto"
           />
-          <span className="text-white font-bold text-xl">RAM HEALTH COMMUNICATIONS</span>
         </Link>
         
         <nav className="hidden md:flex items-center space-x-8">
