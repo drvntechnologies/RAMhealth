@@ -39,6 +39,7 @@ const ServiceBundle = () => {
     <section className="bg-[#e0e0e0] py-20 px-6">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-[#003087] mb-4">
+        </h2>
         <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] mb-4">
           Your Custom Health Service Bundle
         </h2>
