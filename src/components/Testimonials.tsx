@@ -24,7 +24,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="bg-[#e0e0e0] py-20 px-6">
+    <section className="bg-gray-100 py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-[#003087] text-center mb-16">
         </h2>
