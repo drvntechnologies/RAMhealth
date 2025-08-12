@@ -8,7 +8,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-4">
           <img 
-            src="/src/public/LIGHT2.png" 
+            src="/LIGHT2.png" 
             alt="RAM Health Communications" 
             className="h-20 w-auto"
           />
