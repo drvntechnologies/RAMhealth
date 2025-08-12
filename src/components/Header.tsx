@@ -14,14 +14,11 @@ const Header = () => {
           <a href="#home" className="text-white hover:text-gray-200 transition-colors">Home</a>
           <a href="#about" className="text-white hover:text-gray-200 transition-colors">About</a>
           <a href="#services" className="text-white hover:text-gray-200 transition-colors">Services</a>
-          <a href="#blog" className="text-white hover:text-gray-200 transition-colors">Blog</a>
+          <a href="#case-studies" className="text-white hover:text-gray-200 transition-colors">Case Studies</a>
           <a href="#contact" className="text-white hover:text-gray-200 transition-colors">Contact</a>
         </nav>
         
         <div className="hidden md:flex items-center space-x-4">
-          <button className="text-white border border-transparent hover:border-white px-4 py-2 rounded-lg transition-all">
-            Login
-          </button>
           <button className="bg-white text-[#003087] border border-[#003087] px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition-all">
             Get started
           </button>
