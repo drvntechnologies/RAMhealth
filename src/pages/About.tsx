@@ -96,7 +96,6 @@ const About = () => {
           <p className="text-xl text-gray-200 mb-8">
             Let's discuss how we can create compelling healthcare communications that drive results for your organization.
           </p>
-          <button className="bg-white text-[#003087] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
           <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
             Get in touch
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -110,7 +109,3 @@ const About = () => {
 };
 
 export default About;
-  )
-}
-  )
-}
