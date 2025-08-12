@@ -5,6 +5,7 @@ import Solutions from './components/Solutions';
 import ServiceBundle from './components/ServiceBundle';
 import Testimonials from './components/Testimonials';
 import CaseStudies from './components/CaseStudies';
+import FAQ from './components/FAQ';
 import CallToAction from './components/CallToAction';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
