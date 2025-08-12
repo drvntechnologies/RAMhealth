@@ -52,7 +52,6 @@ const About = () => {
       {/* Experience Section */}
       <section className="bg-[#faf8f5] py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#003087] mb-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] mb-12 text-center">
             Professional Experience
           </h2>
