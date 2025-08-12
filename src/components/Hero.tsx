@@ -1,0 +1,38 @@
+import React from 'react';
+
+const Hero = () => {
+  return (
+    <section className="bg-[#003087] py-20 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+              Healthcare Revolution.
+              <br />
+              Guiding Your Success
+            </h1>
+            <p className="text-xl text-gray-200 mb-8">
+              Tailored solutions for healthcare providers.
+            </p>
+          </div>
+          
+          <div className="relative">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+              <div className="w-32 h-32 bg-white rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="w-16 h-20 bg-[#003087] rounded-lg flex items-center justify-center">
+                  <div className="w-8 h-8 bg-white rounded-full"></div>
+                </div>
+              </div>
+              <div className="text-center text-white">
+                <div className="w-24 h-2 bg-white/30 rounded mx-auto mb-2"></div>
+                <div className="w-16 h-2 bg-white/20 rounded mx-auto"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
