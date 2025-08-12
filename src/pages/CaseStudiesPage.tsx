@@ -42,7 +42,7 @@ const CaseStudiesPage = () => {
                     <img
                       src={caseStudy.logoUrl}
                       alt={`${caseStudy.name} logo`}
-                      className="w-20 h-20 object-cover rounded-lg"
+                      className="w-24 h-24 object-contain rounded-lg"
                     />
                   </div>
                   
@@ -117,7 +117,7 @@ const CaseStudiesPage = () => {
                     <img
                       src={selectedCaseStudy.logoUrl}
                       alt={`${selectedCaseStudy.name} logo`}
-                      className="w-24 h-24 object-cover rounded-lg mx-auto mb-4"
+                      className="w-28 h-28 object-contain rounded-lg mx-auto mb-4"
                     />
                     <h3 className="text-xl font-bold text-[#171E43] mb-2">
                       {selectedCaseStudy.name}

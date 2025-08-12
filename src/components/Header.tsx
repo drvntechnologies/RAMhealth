@@ -10,7 +10,7 @@ const Header = () => {
           <img 
             src="/src/public/LIGHT2.png" 
             alt="RAM Health Communications" 
-            className="h-48 w-auto"
+            className="h-20 w-auto"
           />
         </Link>
         

@@ -49,7 +49,7 @@ const CaseStudies = () => {
                           <img
                             src={caseStudy.logoUrl}
                             alt={`${caseStudy.name} logo`}
-                            className="w-16 h-16 object-cover rounded-lg"
+                            className="w-20 h-20 object-contain rounded-lg"
                           />
                         </div>
                         
