@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-[#003087] py-20 px-6">
+    <section className="bg-[#003087] py-32 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -14,6 +14,9 @@ const Hero = () => {
             <p className="text-xl text-gray-200 mb-8">
               Tailored solutions for healthcare providers.
             </p>
+            <button className="bg-white text-[#003087] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
+              Get Started Today
+            </button>
           </div>
           
           <div className="relative">
