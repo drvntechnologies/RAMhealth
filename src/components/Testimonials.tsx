@@ -39,12 +39,13 @@ const Testimonials = () => {
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-6">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300">
-              <blockquote className="text-gray-700 mb-6 leading-relaxed">
+            <div key={index} className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 flex flex-col">
+              <blockquote className="text-gray-700 mb-6 leading-relaxed flex-grow">
                 "{testimonial.quote}"
               </blockquote>
-              <div>
+              <div className="mt-auto">
                 <div className="font-bold text-[#171E43]">{testimonial.name}</div>
                 <div className="text-gray-600">{testimonial.title}</div>
               </div>
