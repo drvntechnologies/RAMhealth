@@ -6,17 +6,15 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Healthcare Revolution.
-              <br />
-              Guiding Your Success
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
+              My Mission: Make You & Your Company Look Good
             </h1>
-            <p className="text-xl text-gray-200 mb-8">
-              Tailored solutions for healthcare providers.
-            </p>
+            <div className="text-xl text-gray-200 mb-8 space-y-2">
+              <p>Conscientious & Client-Centric</p>
+              <p>Focused on Your Business Goals</p>
+              <p>For Maximum Results</p>
+            </div>
             <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
-              Get Started Today
-            </button>
           </div>
           
           <div className="relative">

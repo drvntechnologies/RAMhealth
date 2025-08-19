@@ -13,8 +13,8 @@ const HomePage = () => {
     <div className="min-h-screen">
       <Header />
       <Hero />
-      <Solutions />
       <Testimonials />
+      <Solutions />
       <CaseStudies />
       <FAQ />
       <Contact />

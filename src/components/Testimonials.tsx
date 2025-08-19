@@ -20,6 +20,12 @@ const Testimonials = () => {
       name: "Dorit Baxter",
       title: "Former Senior Vice President of Marketing, Inteliquet",
       rating: 5
+    },
+    {
+      quote: "I worked with Robert for more than two years during my time at vRad. He was a valuable extension of my marketing team, working day and night to ensure all deadlines were met. He is a motivated and proactive professional; I would welcome the chance to work with him again given his background and ability to successfully promote the unique benefits and convergence of healthcare and technology.",
+      name: "Keri Couples",
+      title: "Former Sr. Director of Marketing, vRad",
+      rating: 5
     }
   ];
 
@@ -29,17 +35,12 @@ const Testimonials = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-[#003087] text-center mb-16">
         </h2>
         <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] text-center mb-16">
-          Building Trust. Patient Success Stories.
+          What People Say
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300">
-              <div className="flex mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
               <blockquote className="text-gray-700 mb-6 leading-relaxed">
                 "{testimonial.quote}"
               </blockquote>

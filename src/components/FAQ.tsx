@@ -6,28 +6,16 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What is RAM Health about?",
-      answer: "RAM Health Communications is a comprehensive healthcare technology platform that provides innovative solutions for healthcare providers, including patient communication tools, telehealth capabilities, and clinic management systems."
+      question: "What's our mission?",
+      answer: "We help life sciences companies translate complex innovation into clear, compelling stories that engage healthcare stakeholders and drive results"
     },
     {
-      question: "How do I start with telehealth?",
-      answer: "Getting started with our telehealth solution is simple. Sign up for our platform, complete the setup wizard, and you'll be conducting virtual consultations within minutes. We provide full onboarding support and training."
+      question: "What's Our Vision?",
+      answer: "To accelerate healthcare innovation adoption through strategic communications with clear actions that connect breakthroughs to the people they help and serve."
     },
     {
-      question: "Can I integrate my EMR?",
-      answer: "Yes, we support integration with all major EMR systems including Epic, Cerner, Athenahealth, and many others. Our team will help you set up seamless data flow between your existing systems and our platform."
-    },
-    {
-      question: "What if I need custom solutions?",
-      answer: "We offer extensive customization options and can develop tailored solutions to meet your specific needs. Our Enterprise plan includes custom development and dedicated support to ensure your unique requirements are met."
-    },
-    {
-      question: "How secure is patient data?",
-      answer: "Security is our top priority. We are HIPAA compliant and use enterprise-grade encryption, secure data centers, and regular security audits to ensure your patient data is always protected."
-    },
-    {
-      question: "Do you offer training?",
-      answer: "Absolutely! We provide comprehensive training programs for your staff, including live sessions, recorded tutorials, and ongoing support to ensure your team can effectively use all platform features."
+      question: "Why Work With Us?",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
   ];
 
@@ -41,7 +29,7 @@ const FAQ = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-[#003087] text-center mb-16">
         </h2>
         <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] text-center mb-16">
-          Questions? We're Here to Guide You
+          You Have Questions. We Have Answers.
         </h2>
         
         <div className="space-y-4">

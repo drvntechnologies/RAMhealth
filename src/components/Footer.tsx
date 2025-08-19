@@ -13,10 +13,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <Lighthouse className="h-8 w-8 text-white" />
-              <span className="text-white font-bold text-lg">RAM HEALTH COMMUNICATIONS</span>
+              <span className="text-white font-bold text-lg">Creating and Monetizing Thought Leadership Stories Since 2013</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Leading provider in health solutions, guiding healthcare providers toward innovative and sustainable patient care.
+              We bring 20+ years of communications experience to his work, specializing in creating thought-leadership initiatives that build trust and deliver measurable results.
             </p>
           </div>
           

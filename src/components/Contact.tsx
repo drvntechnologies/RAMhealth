@@ -1,12 +1,15 @@
 import React from 'react';
-import { Phone } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
     <section className="bg-[#171E43] py-20 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16">
-          Let's Navigate Healthcare Together
+        <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
+          Ready to transform your brand?
+        </h2>
+        <p className="text-xl text-gray-200 text-center mb-16">
+          Let's connect for 15 minutes. No strings. Just a conversation.
         </h2>
         
         <div className="grid lg:grid-cols-2 gap-12">
@@ -59,12 +62,20 @@ const Contact = () => {
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20">
             <h3 className="text-xl font-bold text-white mb-6">Contact our team</h3>
-            <div className="flex items-center text-white">
-              <Phone className="h-5 w-5 mr-3" />
-              <span>+1 234-567-8901</span>
+            <div className="flex items-center text-white mb-6">
+              <Mail className="h-5 w-5 mr-3" />
+              <span>hello@ramhealth.com</span>
             </div>
+            <a 
+              href="https://calendly.com/rminicucci/introductory-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-[#171E43] px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-all"
+            >
+              Book a Call With Me
+            </a>
             <p className="text-gray-200 mt-6 leading-relaxed">
-              Ready to transform your healthcare practice? Our team of experts is here to help you navigate the future of healthcare technology.
+              Ready to transform your brand? Let's connect for 15 minutes. No strings. Just a conversation.
             </p>
           </div>
         </div>
