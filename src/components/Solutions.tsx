@@ -1,5 +1,5 @@
 import React from 'react';
-import { Foundation, Handshake, Lightbulb, Brain, GraduationCap, MessageSquare } from 'lucide-react';
+import { Radiation as Foundation, Handshake, Lightbulb, Brain, GraduationCap, MessageSquare } from 'lucide-react';
 
 const Solutions = () => {
   const beliefs = [
