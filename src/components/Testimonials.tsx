@@ -4,12 +4,6 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "SQA very much appreciates all the input and hard work you have provided over the last couple of years. We have enjoyed getting to know you, and you have helped us so much with increasing the volume and quality of content we share with our members and prospective members.",
-      name: "Alison H. Cockrell, CAE",
-      title: "Executive Director, Society of Quality Assurance",
-      rating: 5
-    },
-    {
       quote: "Robert has been instrumental in helping me build my brand and successfully market it. He provides a perspective that results in a better final product. I look forward to our continued relationship and conquering new challenges. I can't recommend him strongly enough.",
       name: "Judy Carmody, Ph.D.",
       title: "Carmody Quality Solutions, LLC",
@@ -25,6 +19,12 @@ const Testimonials = () => {
       quote: "I worked with Robert for more than two years during my time at vRad. He was a valuable extension of my marketing team, working day and night to ensure all deadlines were met. He is a motivated and proactive professional; I would welcome the chance to work with him again given his background and ability to successfully promote the unique benefits and convergence of healthcare and technology.",
       name: "Keri Couples",
       title: "Former Sr. Director of Marketing, vRad",
+      rating: 5
+    },
+    {
+      quote: "SQA very much appreciates all the input and hard work you have provided over the last couple of years. We have enjoyed getting to know you, and you have helped us so much with increasing the volume and quality of content we share with our members and prospective members.",
+      name: "Alison H. Cockrell, CAE",
+      title: "Executive Director, Society of Quality Assurance",
       rating: 5
     }
   ];
