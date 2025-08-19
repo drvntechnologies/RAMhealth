@@ -6,7 +6,7 @@ const Testimonials = () => {
     {
       quote: "Rob has worked with me since 2016 as an integral part of my team supporting all of my marketing communication efforts. Smart, reliable, creative, and honest., he has been instrumental in helping me build my brand and successfully market it. He provides a perspective that I cannot resulting in a better final product. I can't recommend Rob strongly enough.",
       name: "Judy Carmody, Ph.D.",
-      title: "Carmody Quality Solutions, LLC",
+      title: "Founder & Principal Consultant, Carmody Quality Solutions",
       rating: 5
     },
     {
