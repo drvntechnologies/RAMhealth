@@ -15,6 +15,8 @@ const Hero = () => {
               <p>For Maximum Results</p>
             </div>
             <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
+              We Love What We Do. Let Us Show You.
+            </button>
           </div>
           
           <div className="relative">
