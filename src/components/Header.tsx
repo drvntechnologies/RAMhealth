@@ -24,7 +24,7 @@ const Header = () => {
         
         <div className="hidden md:flex items-center space-x-4">
           <button className="bg-white text-[#003087] border border-[#003087] px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition-all">
-            Get started
+            Let's Connect Today
           </button>
         </div>
         
