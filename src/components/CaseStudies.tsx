@@ -58,7 +58,7 @@ const CaseStudies = () => {
                         </h3>
                         
                         <p className="text-gray-200 text-sm mb-4 text-center leading-relaxed">
-                          {getPreviewText(caseStudy.overallGoal)}
+                          {getPreviewText(caseStudy.subtitle)}
                         </p>
                         
                         <button 
