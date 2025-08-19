@@ -1,5 +1,7 @@
 import React from 'react';
-import { Radiation as Foundation, Handshake, Lightbulb, Brain, GraduationCap, TrendingUp } from 'lucide-react' Solutions = () => {
+import { Radiation as Foundation, Handshake, Lightbulb, Brain, GraduationCap, TrendingUp, Stethoscope, Phone, Clipboard, Users, Settings } from 'lucide-react';
+
+const Solutions = () => {
   const solutions = [
     {
       icon: Stethoscope,

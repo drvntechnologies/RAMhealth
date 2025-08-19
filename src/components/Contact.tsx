@@ -10,7 +10,7 @@ const Contact = () => {
         </h2>
         <p className="text-xl text-gray-200 text-center mb-16">
           Let's connect for 15 minutes. No strings. Just a conversation.
-        </h2>
+        </p>
         
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
