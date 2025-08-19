@@ -4,13 +4,13 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Robert has been instrumental in helping me build my brand and successfully market it. He provides a perspective that results in a better final product. I look forward to our continued relationship and conquering new challenges. I can't recommend him strongly enough.",
+      quote: "Rob has worked with me since 2016 as an integral part of my team supporting all of my marketing communication efforts. Smart, reliable, creative, and honest., he has been instrumental in helping me build my brand and successfully market it. He provides a perspective that I cannot resulting in a better final product. I can't recommend Rob strongly enough.",
       name: "Judy Carmody, Ph.D.",
       title: "Carmody Quality Solutions, LLC",
       rating: 5
     },
     {
-      quote: "Robert is exceptional. He's genuinely interested in your business and takes the time to learn what you do, who your customers are, and what your goals are. He tackles complex material with ease. He is a strategic partner who helps accelerate your business through top-notch communications strategies and content.",
+      quote: "He's genuinely interested in your business and takes the time to learn what you do, who your customers are, and what your goals are. He tackles complex material with ease. He is a strategic partner who helps accelerate your business through top-notch communications strategies and content. ... willing to go the extra mile when needed.",
       name: "Dorit Baxter",
       title: "Former Senior Vice President of Marketing, Inteliquet",
       rating: 5
