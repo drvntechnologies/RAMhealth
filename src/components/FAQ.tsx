@@ -48,7 +48,35 @@ const FAQ = () => {
               </button>
               {openFaq === index && (
                 <div className="px-6 pb-6">
-                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                  {index === 2 ? (
+                    <div className="text-gray-700 leading-relaxed space-y-4">
+                      <p>
+                        <strong>We Speak Your Language, Fast.</strong> Every industry we've entered has been a "first time" for us, from biomedical devices to deep end-to-end drug target and biomarker discovery to AI-powered pharma platforms. We quickly master complex topics by asking the right questions and listening to your experts, then translate that knowledge into content that resonates with your audiences.
+                      </p>
+                      
+                      <p>
+                        <strong>We Think Like Your Sales Team.</strong> Our content isn't just pretty—it works. We embed ourselves with sales teams to understand exactly how our communications can help shorten the cycle. When salespeople start calling us first for support tools, we know we're doing our job right.
+                      </p>
+                      
+                      <p>
+                        <strong>We Educate, Don't Sell.</strong> Our philosophy is simple: help people understand their problems first, then position your solution as the natural answer. This educational approach builds trust and credibility that aggressive sales tactics simply can't match.
+                      </p>
+                      
+                      <p>
+                        <strong>We Deliver Proven Results.</strong> From tripling LinkedIn followers for life sciences associations to achieving 44% newsletter open rates, our strategic content consistently drives engagement, generates leads, and shortens sales cycles.
+                      </p>
+                      
+                      <p>
+                        <strong>We're Always Learning.</strong> Healthcare and life sciences never stop evolving. So, we stay current with daily industry research because we genuinely love discovering what's new and sharing those insights through compelling storytelling.
+                      </p>
+                      
+                      <p>
+                        When you work with us, you get a true partner who understands that great communications should make your sales team more effective, your prospects more educated, and your brand more trusted.
+                      </p>
+                    </div>
+                  ) : (
+                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                  )}
                 </div>
               )}
             </div>
