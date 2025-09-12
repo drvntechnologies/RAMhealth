@@ -16,7 +16,7 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      quote: "​"He's genuinely interested in your business and takes the time to learn what you do, who your customers are, and what your goals are. He tackles complex material with ease. He is a strategic partner who helps accelerate your business through top-notch communications strategies and content. ... willing to go the extra mile when needed."",
+      quote: "​\"He's genuinely interested in your business and takes the time to learn what you do, who your customers are, and what your goals are. He tackles complex material with ease. He is a strategic partner who helps accelerate your business through top-notch communications strategies and content. ... willing to go the extra mile when needed."",
       name: "Dorit Baxter",
       title: "Former Senior Vice President of Marketing, Inteliquet",
       rating: 5
