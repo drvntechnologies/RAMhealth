@@ -75,7 +75,7 @@ const Contact = () => {
               Let's Talk Quickly
             </a>
             <p className="text-gray-200 mt-6 leading-relaxed">
-              Ready to transform your brand? Let's connect for 15 minutes. No strings. Just a conversation.
+              Let's connect for 15 minutes. No strings. Just a conversation.
             </p>
           </div>
         </div>
