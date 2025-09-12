@@ -64,7 +64,7 @@ const Contact = () => {
             <h3 className="text-xl font-bold text-white mb-6">Contact our team</h3>
             <div className="flex items-center text-white mb-6">
               <Mail className="h-5 w-5 mr-3" />
-              <span>hello@ramhealth.com</span>
+              <span>hello@ramhealthcomms.com</span>
             </div>
             <a 
               href="https://calendly.com/rminicucci/introductory-meeting"
