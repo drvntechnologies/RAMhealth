@@ -93,7 +93,7 @@ const ContactPage = () => {
                     <Mail className="h-6 w-6 mr-4 text-[#171E43]" />
                     <div>
                       <h4 className="font-medium text-[#171E43]">Email</h4>
-                      <p className="text-gray-600">hello@ramhealth.com</p>
+                      <p className="text-gray-600">hello@ramhealthcomms.com</p>
                     </div>
                   </div>
                   

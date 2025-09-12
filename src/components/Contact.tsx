@@ -9,7 +9,7 @@ const Contact = () => {
           Ready to transform your brand?
         </h2>
         <p className="text-xl text-gray-200 text-center mb-16">
-          Let's connect for 15 minutes. No strings. Just a conversation.
+          Let's chat for 15 minutes about your communication challenges.
         </p>
         
         <div className="grid lg:grid-cols-2 gap-12">
@@ -72,7 +72,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="inline-block bg-white text-[#171E43] px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-all"
             >
-              Book a Call With Me
+              Let's Talk Quickly
             </a>
             <p className="text-gray-200 mt-6 leading-relaxed">
               Ready to transform your brand? Let's connect for 15 minutes. No strings. Just a conversation.

@@ -10,7 +10,13 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      quote: "He's genuinely interested in your business and takes the time to learn what you do, who your customers are, and what your goals are. He tackles complex material with ease. He is a strategic partner who helps accelerate your business through top-notch communications strategies and content. ... willing to go the extra mile when needed.",
+      quote: "SQA very much appreciates all the input and hard work you have provided over the last couple of years. We have enjoyed getting to know you, and you have helped us so much with increasing the volume and quality of content we share with our members and prospective members.",
+      name: "Alison H. Cockrell, CAE",
+      title: "Executive Director, Society of Quality Assurance",
+      rating: 5
+    },
+    {
+      quote: "​"He's genuinely interested in your business and takes the time to learn what you do, who your customers are, and what your goals are. He tackles complex material with ease. He is a strategic partner who helps accelerate your business through top-notch communications strategies and content. ... willing to go the extra mile when needed."",
       name: "Dorit Baxter",
       title: "Former Senior Vice President of Marketing, Inteliquet",
       rating: 5
@@ -19,12 +25,6 @@ const Testimonials = () => {
       quote: "I worked with Robert for more than two years during my time at vRad. He was a valuable extension of my marketing team, working day and night to ensure all deadlines were met. He is a motivated and proactive professional; I would welcome the chance to work with him again given his background and ability to successfully promote the unique benefits and convergence of healthcare and technology.",
       name: "Keri Couples",
       title: "Former Sr. Director of Marketing, vRad",
-      rating: 5
-    },
-    {
-      quote: "SQA very much appreciates all the input and hard work you have provided over the last couple of years. We have enjoyed getting to know you, and you have helped us so much with increasing the volume and quality of content we share with our members and prospective members.",
-      name: "Alison H. Cockrell, CAE",
-      title: "Executive Director, Society of Quality Assurance",
       rating: 5
     }
   ];

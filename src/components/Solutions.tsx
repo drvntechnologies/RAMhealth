@@ -23,15 +23,18 @@ const Solutions = () => {
   const howWeDo = [
     {
       icon: Brain,
-      title: "Adopting A Beginner's Mindset"
+      title: "Adopting A Beginner's Mindset",
+      description: "We approach each client and challenge with genuine curiosity and a willingness to learn."
     },
     {
       icon: GraduationCap,
-      title: "Expertise in \"Always New\" Learning"
+      title: "Expertise in \"Always New\" Learning",
+      description: "This industry constantly evolves. New discoveries mean something fresh to learn and share. That's amazing."
     },
     {
       icon: MessageSquare,
-      title: "A Sales Mindset to Communications"
+      title: "A Sales Mindset to Communications",
+      description: "We focus on results that support efforts to create engagement and shorten sales cycles."
     }
   ];
 
@@ -71,6 +74,9 @@ const Solutions = () => {
               <h3 className="text-xl font-bold text-[#171E43] mb-4">
                 {method.title}
               </h3>
+              <p className="text-gray-600 leading-relaxed">
+                {method.description}
+              </p>
             </div>
           ))}
         </div>

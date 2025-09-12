@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
-              My Mission: Make You & Your Company Look Good
+              The Mission: Make You & Your Company Look Good
             </h1>
             <div className="text-xl text-gray-200 mb-8 space-y-2">
               <p>Conscientious & Client-Centric</p>

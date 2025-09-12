@@ -6,7 +6,7 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What's our mission?",
+      question: "What's Our Mission?",
       answer: "We help life sciences companies translate complex innovation into clear, compelling stories that engage healthcare stakeholders and drive results"
     },
     {
@@ -15,7 +15,7 @@ const FAQ = () => {
     },
     {
       question: "Why Work With Us?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      answer: "We Speak Your Language, Fast. Every industry we've entered has been a \"first time\" for us, from biomedical devices to deep end-to-end drug target and biomarker discovery to AI-powered pharma platforms. We quickly master complex topics by asking the right questions and listening to your experts, then translate that knowledge into content that resonates with your audiences.\n\nWe Think Like Your Sales Team. Our content isn't just pretty—it works. We embed ourselves with sales teams to understand exactly how our communications can help shorten the cycle. When salespeople start calling us first for support tools, we know we're doing our job right.\n\nWe Educate, Don't Sell. Our philosophy is simple: help people understand their problems first, then position your solution as the natural answer. This educational approach builds trust and credibility that aggressive sales tactics simply can't match.\n\nWe Deliver Proven Results. From tripling LinkedIn followers for life sciences associations to achieving 44% newsletter open rates, our strategic content consistently drives engagement, generates leads, and shortens sales cycles.\n\nWe're Always Learning. Healthcare and life sciences never stop evolving. So, we stay current with daily industry research because we genuinely love discovering what's new and sharing those insights through compelling storytelling.\n\nWhen you work with us, you get a true partner who understands that great communications should make your sales team more effective, your prospects more educated, and your brand more trusted."
     }
   ];
 
