@@ -25,7 +25,7 @@ const ContactPage = () => {
       <section className="bg-white py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16">
-            <span className="text-[#171E43]">Let's Navigate Healthcare Together</span>
+            <span className="text-[#171E43]">Let's Go! Let's Get Started</span>
           </h2>
           
           <div className="grid lg:grid-cols-2 gap-12">
@@ -80,37 +80,30 @@ const ContactPage = () => {
               <div className="bg-[#faf8f5] rounded-xl p-8 border border-gray-200">
                 <h3 className="text-xl font-bold text-[#171E43] mb-6">Contact Information</h3>
                 
-                <div className="space-y-6">
-                  <div className="flex items-center">
-                    <Phone className="h-6 w-6 mr-4 text-[#171E43]" />
-                    <div>
-                      <h4 className="font-medium text-[#171E43]">Phone</h4>
-                      <p className="text-gray-600">+1 234-567-8901</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center">
-                    <Mail className="h-6 w-6 mr-4 text-[#171E43]" />
-                    <div>
-                      <h4 className="font-medium text-[#171E43]">Email</h4>
-                      <p className="text-gray-600">hello@ramhealthcomms.com</p>
-                    </div>
-                  </div>
-                  
+                <div className="space-y-6 mb-6">
                   <div className="flex items-center">
                     <MapPin className="h-6 w-6 mr-4 text-[#171E43]" />
                     <div>
                       <h4 className="font-medium text-[#171E43]">Location</h4>
-                      <p className="text-gray-600">Boston, MA</p>
+                      <p className="text-gray-600">Greater Boston</p>
                     </div>
                   </div>
                 </div>
+                
+                <a 
+                  href="https://calendly.com/rminicucci/introductory-meeting"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#171E43] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0f1530] transition-all"
+                >
+                  Book a Call
+                </a>
               </div>
               
               <div className="bg-[#faf8f5] rounded-xl p-8 border border-gray-200">
                 <h3 className="text-xl font-bold text-[#171E43] mb-4">Ready to Get Started?</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Ready to transform your healthcare practice? Our team of experts is here to help you navigate the future of healthcare technology and communications.
+                  We're here to help you gain the attention you deserve.
                 </p>
               </div>
             </div>
