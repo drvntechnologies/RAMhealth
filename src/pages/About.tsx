@@ -41,11 +41,11 @@ const About = () => {
                 With 20+ years of communications experience, Robert specializes in creating thought-leadership initiatives that deliver measurable results. Our passion? Collaborating with teams to create brand authority and market credibility that drives engagement and shortens the sales cycle.
               </p>
               
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed">
                 We have successfully developed messaging strategies for companies across healthcare and life sciences—working with startups, associations, consulting groups, advocacy groups, and public companies alike.
               </p>
               
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed">
                 We know how to turn your expertise into revenue-generating visibility.
               </p>
             </div>
