@@ -51,27 +51,27 @@ const FAQ = () => {
                   {index === 2 ? (
                     <div className="text-gray-700 leading-relaxed space-y-4">
                       <p>
-                        <strong>We Speak Your Language, Fast.</strong> Every industry we've entered has been a "first time" for us, from biomedical devices to deep end-to-end drug target and biomarker discovery to AI-powered pharma platforms. We quickly master complex topics by asking the right questions and listening to your experts, then translate that knowledge into content that resonates with your audiences.
+                        <strong>We Speak Your Language Quickly.</strong> There are many "first times" in this space with many innovations and "firsts." We know how to quickly master complex topics by asking the right questions of your experts, then translating that knowledge into content that resonates.
                       </p>
                       
                       <p>
-                        <strong>We Think Like Your Sales Team.</strong> Our content isn't just pretty—it works. We embed ourselves with sales teams to understand exactly how our communications can help shorten the cycle. When salespeople start calling us first for support tools, we know we're doing our job right.
+                        <strong>We Think Like A Sales Team.</strong> By embedding ourselves with sales teams, we can understand exactly how communications can help shorten the cycle. When salespeople start calling us first, we know we're doing our job right.
                       </p>
                       
                       <p>
-                        <strong>We Educate, Don't Sell.</strong> Our philosophy is simple: help people understand their problems first, then position your solution as the natural answer. This educational approach builds trust and credibility that aggressive sales tactics simply can't match.
+                        <strong>We Don't Sell, We Educate.</strong> Our approach is to help understand people's pain and problems first, then position your solution as the natural answer. This can build trust and credibility that product sales simply can't match.
                       </p>
                       
                       <p>
-                        <strong>We Deliver Proven Results.</strong> From tripling LinkedIn followers for life sciences associations to achieving 44% newsletter open rates, our strategic content consistently drives engagement, generates leads, and shortens sales cycles.
+                        <strong>We Deliver Proven Results.</strong> From tripling LinkedIn followers to achieving 44% newsletter open rates, our content drives engagement and generates leads and authentic connections.
                       </p>
                       
                       <p>
-                        <strong>We're Always Learning.</strong> Healthcare and life sciences never stop evolving. So, we stay current with daily industry research because we genuinely love discovering what's new and sharing those insights through compelling storytelling.
+                        <strong>We're Always Learning.</strong> Healthcare and life sciences never stop evolving. We stay current with daily research because we love what's new and sharing those insights through compelling storytelling.
                       </p>
                       
                       <p>
-                        When you work with us, you get a true partner who understands that great communications should make your sales team more effective, your prospects more educated, and your brand more trusted.
+                        <strong>We Know How To Pivot.</strong> Plans change. Strategies get updated from lessons learned in the field and from other learnings. We can assess new information and readjust accordingly.
                       </p>
                     </div>
                   ) : (
