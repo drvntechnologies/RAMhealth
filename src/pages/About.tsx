@@ -33,59 +33,26 @@ const About = () => {
             </div>
             
             <div className="space-y-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#171E43] mb-4">
+                Helping Companies Share Remarkable Stories that Create Remarkable Actions.
+              </h2>
+              
               <p className="text-lg text-gray-700 leading-relaxed">
-                Robert brings 25+ years of communications experience to his work, specializing in creating thought-leadership initiatives that build trust and deliver measurable results.
+                With 20+ years of communications experience, Robert specializes in creating thought-leadership initiatives that deliver measurable results. Our passion? Collaborating with teams to create brand authority and market credibility that drives engagement and shortens the sales cycle.
               </p>
               
               <p className="text-gray-700 leading-relaxed">
-                Throughout his career, he successfully developed strategic content for websites, social media, as well as articles for pharmaceutical, medical device, associations and advocacy groups, and healthcare and life sciences companies—working with startups, associations, and public companies alike. He has established strong collaborative relationships with senior leaders, consistently ensuring positive outcomes.
+                We have successfully developed messaging strategies for companies across healthcare and life sciences—working with startups, associations, consulting groups, advocacy groups, and public companies alike.
               </p>
               
               <p className="text-gray-700 leading-relaxed">
-                His diverse portfolio includes contributions to The Boston Globe, ghost-written articles, and production of award-winning marketing and sales support materials ranging from blog postings to company newsletters, annual reports, advertorials, product brochures, direct mail, and advertising.
+                We know how to turn your expertise into revenue-generating visibility.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section className="bg-[#faf8f5] py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] mb-12 text-center">
-            Professional Experience
-          </h2>
-          
-          <div className="space-y-8">
-            <div className="bg-white rounded-xl p-8 shadow-md">
-              <h3 className="text-xl font-bold text-[#171E43] mb-4">
-                Director of Corporate Communications and External Relations - Radisphere National Radiology Group
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                Prior to founding RHC, Robert was Director of Corporate Communications and External Relations for Radisphere National Radiology Group, where he established the company as a thought leader in innovative teleradiology services. His responsibilities included providing strategic communications counsel, developing local communications programs for hospital clients launching Radisphere's services, securing testimonials, and managing crises. He was the day-to-day contact for media inquiries and managed the company's social media channels as well as its ongoing press announcement pipeline.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-xl p-8 shadow-md">
-              <h3 className="text-xl font-bold text-[#171E43] mb-4">
-                Corporate Communications Manager - ZOLL Medical Corporation (NASDAQ: ZOLL)
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                As the Corporate Communications Manager at ZOLL Medical Corporation, Robert built the public relations function for the medical device company. He increased ZOLL's awareness and editorial mentions, which more than doubled during his three-year tenure. He also developed award-winning annual reports and advertisements as well as corporate newsletters, videos, white papers, case studies, and product brochures. One report won recognition from the League of American Communications Professionals, which cited its excellent overall creativity, and clear messaging and narrative.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-xl p-8 shadow-md">
-              <h3 className="text-xl font-bold text-[#171E43] mb-4">
-                Early Career Highlights
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                Earlier in his career, Robert developed programs for companies such as Avid Technology, Hewlett Packard Medical Products Group, and IBM. Robert began his career with Ogilvy Adams & Rinehart in Washington, D.C., where clients included Burger King Corporation, Nestlé Foods, and Nissan Motor Corporation.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Call to Action */}
       <section className="bg-[#171E43] py-20 px-6">
