@@ -7,12 +7,10 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
-              The Mission: Make You & Your Company Look Good
+              The Mission: Simplify Science, Engage Many Audiences, and Generate Growth
             </h1>
-            <div className="text-xl text-gray-200 mb-8 space-y-2">
-              <p>Conscientious & Client-Centric</p>
-              <p>Focused on Your Business Goals</p>
-              <p>For Maximum Results</p>
+            <div className="text-xl text-gray-200 mb-8">
+              <p>Focused on Your Business Goals for Clear, Maximum Results</p>
             </div>
             <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
               We Love What We Do. Let Us Show You.
