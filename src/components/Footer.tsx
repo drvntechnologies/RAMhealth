@@ -37,7 +37,7 @@ const Footer = () => {
         
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 mb-4 md:mb-0">
-            ©2025 RAM Health Communications. All rights reserved.
+            ©2025 RAM Health Communications, LLC. All rights reserved.
           </p>
           <div className="flex space-x-6 text-gray-300">
             <a href="#" className="hover:text-white transition-colors">Terms</a>
