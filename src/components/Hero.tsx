@@ -18,16 +18,12 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-              <div className="w-32 h-32 bg-white rounded-full mx-auto mb-4 flex items-center justify-center">
-                <div className="w-16 h-20 bg-[#171E43] rounded-lg flex items-center justify-center">
-                  <div className="w-8 h-8 bg-white rounded-full"></div>
-                </div>
-              </div>
-              <div className="text-center text-white">
-                <div className="w-24 h-2 bg-white/30 rounded mx-auto mb-2"></div>
-                <div className="w-16 h-2 bg-white/20 rounded mx-auto"></div>
-              </div>
+            <div className="flex justify-center">
+              <img
+                src="/robertprofilephoto.jpg"
+                alt="Robert - Healthcare Communications Expert"
+                className="w-80 h-80 object-cover rounded-2xl shadow-2xl border-4 border-white/20"
+              />
             </div>
           </div>
         </div>
