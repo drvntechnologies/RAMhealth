@@ -113,7 +113,7 @@ const Services = () => {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-200 mb-8">
-            Let's discuss how our services can help you achieve your healthcare communications goals.
+            Let's collaborate to achieve your business goals.
           </p>
           <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
             Contact us today

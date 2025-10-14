@@ -82,7 +82,7 @@ const CaseStudiesPage = () => {
               Ready to Create Your Success Story?
             </h2>
             <p className="text-xl text-gray-200 mb-8">
-              Let's discuss how we can help you achieve similar results for your healthcare organization.
+              Let's collaborate to achieve your business goals.
             </p>
             <button className="bg-white text-[#003087] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
             </button>
