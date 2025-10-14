@@ -1,25 +1,24 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import ServiceBundle from '../components/ServiceBundle';
 import { ArrowRight, Palette, FileText, Cog, Monitor, Smartphone, Activity, Users, TrendingUp, MessageSquare } from 'lucide-react';
 
 const Services = () => {
   const additionalServices = [
     {
       icon: Users,
-      title: "Strategic Communications Consulting",
-      description: "Develop comprehensive communication strategies that align with your business objectives and target audience needs."
+      title: "Messaging/Positioning Development",
+      description: "We can help you establish the right messaging that speaks to why you do what you do and how you are different … in short order."
     },
     {
       icon: TrendingUp,
-      title: "Content Marketing",
-      description: "Create engaging content that positions your organization as a thought leader in the healthcare industry."
+      title: "Social Marketing Strategy",
+      description: "LinkedIn corporate pages and personal profile management that gain attention and followers."
     },
     {
       icon: MessageSquare,
-      title: "Crisis Communications",
-      description: "Prepare for and manage communications during challenging situations to protect your reputation."
+      title: "Thought Leadership Programs",
+      description: "From contributed articles and media outreach to blog planning, newsletter and podcast creation"
     }
   ];
 
@@ -39,14 +38,11 @@ const Services = () => {
         </div>
       </section>
 
-      {/* Service Bundle */}
-      <ServiceBundle />
-
       {/* Additional Services */}
       <section className="bg-white py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-[#171E43] mb-16 text-center">
-            Additional Expertise
+            Expertise In
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
