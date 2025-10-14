@@ -26,7 +26,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop"
+                src="/robertprofilephoto.jpg"
                 alt="Robert - Healthcare Communications Expert"
                 className="w-full h-[600px] object-cover rounded-xl shadow-lg"
               />
