@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { ArrowRight, Palette, FileText, Cog, Monitor, Smartphone, Activity, Users, TrendingUp, MessageSquare } from 'lucide-react';
@@ -115,10 +116,10 @@ const Services = () => {
           <p className="text-xl text-gray-200 mb-8">
             Let's collaborate to achieve your business goals.
           </p>
-          <button className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
+          <Link to="/contact" className="bg-white text-[#171E43] px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all inline-flex items-center group">
             Contact us today
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </Link>
         </div>
       </section>
 

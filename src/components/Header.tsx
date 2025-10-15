@@ -23,9 +23,9 @@ const Header = () => {
         </nav>
         
         <div className="hidden md:flex items-center space-x-4">
-          <button className="bg-white text-[#003087] border border-[#003087] px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition-all">
+          <Link to="/contact" className="bg-white text-[#003087] border border-[#003087] px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition-all">
             Let's Connect Today
-          </button>
+          </Link>
         </div>
         
         <Menu className="h-6 w-6 text-white md:hidden" />
