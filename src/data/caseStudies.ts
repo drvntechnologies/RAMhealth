@@ -39,5 +39,13 @@ export const caseStudies: CaseStudy[] = [
     logoUrl: "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
     overallGoal: "Developed website content to update messaging and positioning to educate about the need for AED programs.",
     results: "• Satisfaction with messaging and content led client to hire RAMHC to develop the Company's first formal corporate brochure, building on messaging and positioning work done for website."
+  },
+  {
+    id: "society-of-quality-assurance",
+    name: "Society of Quality Assurance (SQA)",
+    subtitle: "Increased awareness to increase membership.",
+    logoUrl: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+    overallGoal: "Raise brand awareness and authority to attract younger quality professionals. RHC's scope of work involved branding strategy and planning of its annual meeting as well as content development.",
+    results: "• SQA membership increased from 2,135 in 2021 to approximately 2,500 in 2024, a 17% increase.\n• LinkedIn page followers grew more than threefold—from 1,364 at the start of 2022 to 6,127 as of mid-Aug. 2024.\n• As of August 2024, pages views surpassed all those for all of 2023."
   }
 ];
