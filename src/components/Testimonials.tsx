@@ -7,24 +7,28 @@ const Testimonials = () => {
       quote: "Rob has worked with me since 2016 as an integral part of my team supporting all of my marketing communication efforts. Smart, reliable, creative, and honest., he has been instrumental in helping me build my brand and successfully market it. He provides a perspective that I cannot resulting in a better final product. I can't recommend Rob strongly enough.",
       name: "Judy Carmody, Ph.D.",
       title: "Founder & Principal Consultant, Carmody Quality Solutions",
+      photo: "/judy.jpg",
       rating: 5
     },
     {
       quote: "SQA very much appreciates all the input and hard work you have provided over the last couple of years. We have enjoyed getting to know you, and you have helped us so much with increasing the volume and quality of content we share with our members and prospective members.",
       name: "Alison H. Cockrell, CAE",
       title: "Executive Director, Society of Quality Assurance",
+      photo: "/Alison.jpg",
       rating: 5
     },
     {
       quote: "He's genuinely interested in your business and takes the time to learn what you do, who your customers are, and what your goals are. He tackles complex material with ease. He is a strategic partner who helps accelerate your business through top-notch communications strategies and content. ... willing to go the extra mile when needed.",
       name: "Dorit Baxter",
       title: "Former Senior Vice President of Marketing, Inteliquet",
+      photo: "/Dorit.jpg",
       rating: 5
     },
     {
       quote: "I worked with Robert for more than two years during my time at vRad. He was a valuable extension of my marketing team, working day and night to ensure all deadlines were met. He is a motivated and proactive professional; I would welcome the chance to work with him again given his background and ability to successfully promote the unique benefits and convergence of healthcare and technology.",
       name: "Keri Couples",
       title: "Former Sr. Director of Marketing, vRad",
+      photo: "/Keri.jpg",
       rating: 5
     }
   ];
@@ -45,8 +49,17 @@ const Testimonials = () => {
                 "{testimonial.quote}"
               </blockquote>
               <div className="mt-auto">
-                <div className="font-bold text-[#171E43]">{testimonial.name}</div>
-                <div className="text-gray-600 text-sm">{testimonial.title}</div>
+                <div className="flex items-center mb-3">
+                  <img
+                    src={testimonial.photo}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover mr-3"
+                  />
+                  <div>
+                    <div className="font-bold text-[#171E43]">{testimonial.name}</div>
+                    <div className="text-gray-600 text-sm">{testimonial.title}</div>
+                  </div>
+                </div>
               </div>
             </div>
           ))}
