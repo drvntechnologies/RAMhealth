@@ -5,7 +5,6 @@ import Solutions from '../components/Solutions';
 import Testimonials from '../components/Testimonials';
 import CaseStudies from '../components/CaseStudies';
 import FAQ from '../components/FAQ';
-import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 const HomePage = () => {
@@ -17,7 +16,6 @@ const HomePage = () => {
       <Solutions />
       <CaseStudies />
       <FAQ />
-      <Contact />
       <Footer />
     </div>
   );

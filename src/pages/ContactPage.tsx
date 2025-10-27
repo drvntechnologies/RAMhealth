@@ -1,35 +1,9 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Contact from '../components/Contact';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
 const ContactPage = () => {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    
-    // Using Netlify Forms (works with Bolt hosting)
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams({
-        'form-name': 'contact-page',
-        'name': formData.get('name') as string,
-        'email': formData.get('email') as string,
-        'message': formData.get('message') as string,
-      }).toString()
-    })
-    .then(() => {
-      alert('Thank you for your message! We\'ll get back to you soon.');
-      (e.target as HTMLFormElement).reset();
-    })
-    .catch((error) => {
-      console.error('Error:', error);
-      alert('There was an error sending your message. Please try again.');
-    });
-  };
-
   return (
     <div className="min-h-screen">
       <Header />
@@ -53,67 +27,7 @@ const ContactPage = () => {
             <span className="text-[#171E43]">Let's Go! Let's Get Started</span>
           </h2>
           
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div>
-              <form 
-                name="contact-page" 
-                method="POST" 
-                data-netlify="true" 
-                onSubmit={handleSubmit}
-                className="space-y-6"
-              >
-                <input type="hidden" name="form-name" value="contact-page" />
-                <div>
-                  <label htmlFor="name" className="block text-[#171E43] font-medium mb-2">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43]"
-                    placeholder="Your full name"
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="email" className="block text-[#171E43] font-medium mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43]"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="message" className="block text-[#171E43] font-medium mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    required
-                    rows={6}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43] resize-none"
-                    placeholder="Tell us about your healthcare needs..."
-                  />
-                </div>
-                
-                <button
-                  type="submit"
-                  className="w-full bg-[#171E43] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0f1530] transition-all"
-                >
-                  Send message
-                </button>
-              </form>
-            </div>
-            
+          <div className="max-w-2xl mx-auto">
             <div className="space-y-8">
               <div className="bg-[#faf8f5] rounded-xl p-8 border border-gray-200">
                 <h3 className="text-xl font-bold text-[#171E43] mb-6">Contact Information</h3>
