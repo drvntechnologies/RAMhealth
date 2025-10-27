@@ -2,6 +2,31 @@ import React from 'react';
 import { Mail } from 'lucide-react';
 
 const Contact = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    
+    // Using Netlify Forms (works with Bolt hosting)
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        'form-name': 'contact',
+        'name': formData.get('name') as string,
+        'email': formData.get('email') as string,
+        'message': formData.get('message') as string,
+      }).toString()
+    })
+    .then(() => {
+      alert('Thank you for your message! We\'ll get back to you soon.');
+      (e.target as HTMLFormElement).reset();
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+      alert('There was an error sending your message. Please try again.');
+    });
+  };
+
   return (
     <section className="bg-[#171E43] py-20 px-6">
       <div className="max-w-7xl mx-auto">
@@ -14,7 +39,14 @@ const Contact = () => {
         
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
-            <form className="space-y-6">
+            <form 
+              name="contact" 
+              method="POST" 
+              data-netlify="true" 
+              onSubmit={handleSubmit}
+              className="space-y-6"
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <div>
                 <label htmlFor="name" className="block text-white font-medium mb-2">
                   Name
@@ -22,6 +54,8 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
+                  name="name"
+                  required
                   className="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50"
                   placeholder="Your full name"
                 />
@@ -34,6 +68,8 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
+                  name="email"
+                  required
                   className="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50"
                   placeholder="your@email.com"
                 />
@@ -45,6 +81,8 @@ const Contact = () => {
                 </label>
                 <textarea
                   id="message"
+                  name="message"
+                  required
                   rows={6}
                   className="w-full px-4 py-3 rounded-lg border border-white/20 bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 resize-none"
                   placeholder="Tell us about your healthcare needs..."

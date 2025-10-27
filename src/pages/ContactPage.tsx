@@ -5,6 +5,31 @@ import Contact from '../components/Contact';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
 const ContactPage = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    
+    // Using Netlify Forms (works with Bolt hosting)
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        'form-name': 'contact-page',
+        'name': formData.get('name') as string,
+        'email': formData.get('email') as string,
+        'message': formData.get('message') as string,
+      }).toString()
+    })
+    .then(() => {
+      alert('Thank you for your message! We\'ll get back to you soon.');
+      (e.target as HTMLFormElement).reset();
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+      alert('There was an error sending your message. Please try again.');
+    });
+  };
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -30,7 +55,14 @@ const ContactPage = () => {
           
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <form className="space-y-6">
+              <form 
+                name="contact-page" 
+                method="POST" 
+                data-netlify="true" 
+                onSubmit={handleSubmit}
+                className="space-y-6"
+              >
+                <input type="hidden" name="form-name" value="contact-page" />
                 <div>
                   <label htmlFor="name" className="block text-[#171E43] font-medium mb-2">
                     Name
@@ -38,6 +70,8 @@ const ContactPage = () => {
                   <input
                     type="text"
                     id="name"
+                    name="name"
+                    required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43]"
                     placeholder="Your full name"
                   />
@@ -50,6 +84,8 @@ const ContactPage = () => {
                   <input
                     type="email"
                     id="email"
+                    name="email"
+                    required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43]"
                     placeholder="your@email.com"
                   />
@@ -61,6 +97,8 @@ const ContactPage = () => {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
+                    required
                     rows={6}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#171E43] focus:border-[#171E43] resize-none"
                     placeholder="Tell us about your healthcare needs..."
